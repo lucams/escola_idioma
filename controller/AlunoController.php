@@ -42,5 +42,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         //Necessário para mostrar o formulário em modo de edição
         $_SESSION['op'] = 'U';
         header('Location:../view/aluno.php');
+		
     }
 } 

@@ -11,7 +11,7 @@ function __autoload($classe) {
             <div class="navbar">
                 <div class="navbar-inner">
                     <div class="container">
-                        <h2>Embromation Escola de Idiomas</h2>
+                        <h2>Escola de Idiomas</h2>
                         <?php echo $_SESSION['usuario']->__get('nome');?>
                     </div>
                 </div>
