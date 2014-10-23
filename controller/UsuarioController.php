@@ -35,6 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $uDAO->deletar();
         unset($_SESSION['op']);
         header('Location:../view/usuario.php');
+        // outro novo comentário
     } else if ($_GET['op'] == 'U') {
         //Buscar
         $u = new Usuario($_GET);
