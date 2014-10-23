@@ -21,6 +21,7 @@ class Aluno extends Pessoa{
         $temp.= parent::__toString();
         $temp.='</table>';
         return $temp;
+		
     }
 
     public function getNivelExtenso(){

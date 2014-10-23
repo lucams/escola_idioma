@@ -36,7 +36,7 @@
          <li>
              <a href="../controller/LoginController.php?op=S">
                 <i class="icon-star"></i>
-               Sair
+               Logoff
             </a>
         </li>
     </ul>

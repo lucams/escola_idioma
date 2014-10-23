@@ -44,11 +44,13 @@ if (!isset($_SESSION['obj'])) {
             <!-- Text input-->
             <label class="control-label" for="cpf">CPF:</label>
             <div class="controls">
+			
                 <input placeholder="" class="input-medium" type="text" name="cpf" value="<?php echo $cpf;?>">
                 <p class="help-block"></p>
             </div>
         </div>
 
+		
         <div class="control-group">
             <label class="control-label" for="telefone">Telefone:</label>
             <div class="controls">
