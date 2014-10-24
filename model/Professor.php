@@ -18,6 +18,7 @@ class Professor extends Pessoa {
 //ToString usado para facilitar o relacionamento
     public function __toString() {
         return $this->id;
+        // outra alteração
     }
 
 }

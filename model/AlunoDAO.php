@@ -17,6 +17,7 @@ class AlunoDAO {
     private $con;
 
     function __construct(Aluno $obj) {
+	
         $this->obj = $obj;
         $this->con = Connection::getConnection();
     }

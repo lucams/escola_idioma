@@ -4,6 +4,8 @@ function __autoload($classe) {
     include_once "../model/$classe.php";
 }
 ?>
+
+
 <!-- HEADER -->
 <header class="container-fluid">
     <div class="row-fluid">
